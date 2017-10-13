@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pascual.opencvcam.MainActivity">
+
+
+    <org.opencv.android.JavaCameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/camera_view"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="131dp"
+        android:text="Button"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="51dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="56dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+</android.support.constraint.ConstraintLayout>
